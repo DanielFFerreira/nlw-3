@@ -6,12 +6,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  color: #fff;
-  height: 100vh;
-}
 :root {
   font-size: 62.5%;
+}
+body {
+  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+  --color-text: #f5f5f5;
+  --color-black: #000;
+  --bg-white: #fff;
+  color: var(--color-text);
+  height: 100vh;
 }
 
 body,
@@ -20,32 +24,4 @@ button,
 textarea {
   font: 400 1.8rem /1 "Nunito", sans-serif;
 }
-#page-lading {
-  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
-  min-height: 100vh;
-  text-align: center;
-  display: flex;
-  align-items: center;
-}
-#container {
-  margin: auto;
-}
-.location,
-h1,
-.visit,
-p {
-  height: 16vh;
-}
-.visit a {
-  width: 8rem;
-  height: 8rem;
-  background: #ffd666;
 
-  border: none;
-  border-radius: 3rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-}
