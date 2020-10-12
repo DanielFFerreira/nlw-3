@@ -15,9 +15,9 @@
 
 Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- [HTML]()
-- [CSS]()
-- [JavaScript]()
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
 - [SQLite](https://www.sqlite.org/index.html)
