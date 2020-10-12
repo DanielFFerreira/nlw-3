@@ -27,21 +27,26 @@ p {
   align-items: center;
   justify-content: center;
   margin: auto;
+  transition: background .2s;
+}
+.visit a:hover {
+  background-color: #96feff;
 }
 /* Sessões animadas */
 #logo {
-  animation-delay: 50ms;
+  animation-delay: 100ms;
 }
 .location {
-  animation-delay: 100ms;
+  animation-delay: 150ms;
 }
 
 main h1 {
-  animation-delay: 150ms;
-}
-.visit p {
   animation-delay: 200ms;
 }
-.visit a {
+.visit p {
   animation-delay: 250ms;
 }
+.visit a {
+  animation-delay: 350ms;
+}
+
