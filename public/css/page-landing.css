@@ -7,11 +7,11 @@
 
 #container {
   margin: auto;
-  width: 90%;
+  width: min(90%, 112rem);
 }
 .location,
 h1,
-.visit,
+.visit
 p {
   height: 16vh;
 }
@@ -48,5 +48,46 @@ main h1 {
 }
 .visit a {
   animation-delay: 350ms;
+}
+
+@media (min-width: 760px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .location, h1, .visit p {
+    height: initial;
+  }
+  .location {
+    display: block;
+    text-align: right;
+    font-size: 2.4rem;
+    line-height: 1.5;
+  }
+
+  main h1 {
+    text-align: left;
+    font-size: clamp(4rem, 8vw, 8.4rem);
+    font-weight: bold;
+    width: min(300px, 80%);
+    line-height: .88;
+    margin: clamp(10%, 9vh, 12%)0 4rem;
+  }
+  .visit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .visit p {
+    font-size: 2.4rem;
+    line-height: 1.2;
+    width: clamp(20rem, 20vw, 30rem);
+    text-align: left;
+  }
+  .visit a {
+    margin: initial;
+  }
 }
 
