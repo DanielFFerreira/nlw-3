@@ -8,7 +8,7 @@
 </p>
 
 <p>
-  <img src="public/images/home.png">
+  <img src="./public/images/girfff.gif"/>
 </p>
 
 # 🚀 Tecnologias
