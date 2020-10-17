@@ -46,3 +46,19 @@
   animation-duration: 300ms;
   animation-fill-mode: backwards;
 }
+
+h1:after {
+  content: "|";
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca .8s infinite;
+}
+
+@keyframes pisca {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
