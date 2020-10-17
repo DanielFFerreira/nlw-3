@@ -9,6 +9,7 @@
 
 <p>
   <img src="./public/images/girfff.gif"/>
+  <img src="./public/images/orfa.gif"/>
 </p>
 
 # 🚀 Tecnologias
