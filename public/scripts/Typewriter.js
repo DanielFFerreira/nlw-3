@@ -4,10 +4,10 @@ function Typewriter(elemento) {
   textoArray.forEach(function (letra, i) {
     setTimeout(function () {
       elemento.innerHTML += letra;
-    }, 150 * i);
+    }, 120 * i);
   });
 }
 
-const titulo = document.querySelector("h1");
+const titulo = document.querySelector("h1, h2");
 
 Typewriter(titulo);
