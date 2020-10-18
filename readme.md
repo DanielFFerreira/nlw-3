@@ -8,10 +8,7 @@
 </p>
 
 <p>
-  <img src="./public/images/girfff.gif"/>
-  <img src="./public/images/orfa.gif"/>
-  <img src="./public/images/gallery.gif"/>
-  <img src="./public/images/map.gif"/>
+  <img src="./public/images/geral.gif">
 </p>
 
 # 🚀 Tecnologias
