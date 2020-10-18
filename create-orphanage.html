@@ -69,13 +69,13 @@
           <div class="images-upload" id="images">
             <div class="new-upload">
               <input name="images" placeholder="Cole o link da foto aqui" required />
-              <span>
+              <span onclick="deleteField(event)">
                 <img src="./public/images/remove-file.svg" alt="remove" />
               </span>
             </div>
           </div>
-          <button>
-            <img src="./public/images/add-file.svg" alt="Add" />
+          <button onclick="addPhotoField()" type="button">
+            <img src="./public/images/add-file.svg" alt="Nova imagem" />
           </button>
         </div>
         <fieldset>
